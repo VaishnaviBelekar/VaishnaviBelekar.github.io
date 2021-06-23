@@ -1,0 +1,162 @@
+.banner {
+    width: 100%;
+    background-image: url(img/back.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 100;
+    height: 100vh;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 1% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fbff0a;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    background-image: url(img/back.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 100;
+    height: 100%;
+}
+
+#p {
+    color: white;
+}
+
+#p1 {
+    color: white;
+}
+
+.sign-up-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: transparent;
+    padding: 20;
+    margin: 8% auto 0;
+    text-align: center;
+}
+
+.sign-up-form h1 {
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+button {
+    color: black;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.signup-button {
+    background-color: #1c8adb;
+}
+
+.twitter-button {
+    background-color: #21afde;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.or {
+    background: white;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+
+.sign-up-form img {
+    width: 20%;
+}
+
+.table-box {
+    margin: auto;
+    padding-top: 10%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/backr.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.table-row {
+    color: white;
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    padding: 12px 0;
+    font-size: auto;
+}
+
+.table-cell {
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    vertical-align: middle;
+}
+
+.utk {
+    color: rgb(211, 118, 118);
+    padding-top: 18%;
+    padding-left: 30%;
+}
